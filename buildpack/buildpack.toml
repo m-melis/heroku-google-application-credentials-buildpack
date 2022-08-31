@@ -1,0 +1,16 @@
+# Buildpack API version
+api = "0.2"
+
+# Buildpack ID and metadata
+[buildpack]
+id = "heroku-google-application-credentials-buildpack"
+version = "0.0.1"
+name = "Heroku Google Application Credentials Buildpack"
+homepage = "https://github.com/m-melis/heroku-google-application-credentials-buildpack"
+
+# Stacks that the buildpack will work with
+[[stacks]]
+id = "heroku-22"
+
+[[stacks]]
+id = "heroku-20"
